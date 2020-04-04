@@ -1,0 +1,40 @@
+
+body{
+    text-align: center;
+    font-family:"Times New Roman", monospace; 
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(48, 23, 23, 0.911)), to(rgba(189, 146, 90, 0.884)))
+}
+#img-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    color:rgb(226, 202, 171); 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: fit-content;
+}
+
+#image1{
+    width: 50%;
+    height: auto;
+    border: 5px solid burlywood;
+}
+#image1:hover{
+    transform: scale(1.01);
+    box-shadow: 5px 5px 20px rgba(189, 146, 90, 0.884);
+    
+}
+#img-div p{
+    font-size: larger;
+    font-weight: bolder;
+}
+#tribute-link{
+    font-size: larger;
+}
+h1{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(189, 146, 90, 0.884);
+}
+#tribute-info{
+    color: rgba(0, 0, 0, 0.884);
+    font-size:20px;
+}
